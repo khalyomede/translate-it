@@ -1,41 +1,42 @@
 {
-  "name": "translate-it",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "test:unit": "vue-cli-service test:unit",
-    "test:e2e": "vue-cli-service test:e2e",
-    "lint": "vue-cli-service lint"
-  },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^2.6.11",
-    "vue-router": "^3.2.0",
-    "vuex": "^3.4.0"
-  },
-  "devDependencies": {
-    "@khalyomede/translate": "^0.1.1",
-    "@types/chai": "^4.2.11",
-    "@types/mocha": "^5.2.4",
-    "@vue/cli-plugin-babel": "~4.4.0",
-    "@vue/cli-plugin-e2e-cypress": "~4.4.0",
-    "@vue/cli-plugin-router": "~4.4.0",
-    "@vue/cli-plugin-typescript": "~4.4.0",
-    "@vue/cli-plugin-unit-mocha": "~4.4.0",
-    "@vue/cli-plugin-vuex": "~4.4.0",
-    "@vue/cli-service": "~4.4.0",
-    "@vue/test-utils": "^1.0.3",
-    "autoprefixer": "^9.8.0",
-    "chai": "^4.1.2",
-    "node-sass": "^4.12.0",
-    "pug": "^3.0.0",
-    "pug-plain-loader": "^1.0.0",
-    "sass-loader": "^8.0.2",
-    "tailwindcss": "^1.4.6",
-    "typescript": "~3.9.3",
-    "vue-template-compiler": "^2.6.11",
-    "vuex-persistedstate": "^3.0.1"
-  }
+	"name": "translate-it",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "ncu && vue-cli-service build",
+		"test:unit": "vue-cli-service test:unit",
+		"test:e2e": "vue-cli-service test:e2e",
+		"lint": "vue-cli-service lint"
+	},
+	"dependencies": {
+		"core-js": "^3.6.5",
+		"vue": "2.*",
+		"vue-router": "3.*",
+		"vuex": "3.*"
+	},
+	"devDependencies": {
+		"@khalyomede/translate": "0.1.*",
+		"@types/chai": "^4.2.11",
+		"@types/mocha": "^5.2.4",
+		"@vue/cli-plugin-babel": "~4.4.0",
+		"@vue/cli-plugin-e2e-cypress": "~4.4.0",
+		"@vue/cli-plugin-router": "~4.4.0",
+		"@vue/cli-plugin-typescript": "~4.4.0",
+		"@vue/cli-plugin-unit-mocha": "~4.4.0",
+		"@vue/cli-plugin-vuex": "~4.4.0",
+		"@vue/cli-service": "~4.4.0",
+		"@vue/test-utils": "^1.0.3",
+		"autoprefixer": "^9.8.0",
+		"chai": "^4.1.2",
+		"node-sass": "^4.12.0",
+		"npm-check-updates": "7.*",
+		"pug": "^3.0.0",
+		"pug-plain-loader": "^1.0.0",
+		"sass-loader": "^8.0.2",
+		"tailwindcss": "1.*",
+		"typescript": "~3.9.3",
+		"vue-template-compiler": "^2.6.11",
+		"vuex-persistedstate": "^3.0.1"
+	}
 }
